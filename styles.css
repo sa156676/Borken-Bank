@@ -28,7 +28,7 @@ body{
 }
 
 header{
-    background-color: white;
+    background-color:white;
     text-align: center;
 }
 
@@ -44,4 +44,26 @@ button {
 a{
     text-decoration: none;
     color: black;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+.flex-container > div {
+    background-color: lightgrey;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    
 }
